@@ -1,0 +1,26 @@
+{
+  "version": "1.0.0",
+  "name": "awhitepage.com",
+  "launch_path": "/index.html",
+  "description": "Keine Werbung! Schnell und einfach myspass.de benutzen!",
+  "icons": {
+    "60": "/img/touch/touch-icon-60x60.png",
+    "128": "/img/touch/touch-icon-128x128.png"
+  },
+  "developer": {
+    "name": "",
+    "url": ""
+  },
+  "installs_allowed_from": [
+    "*"
+  ],
+  "default_locale": "en",
+  "permissions": {
+  },
+  "locales": {
+    "en": {
+      "name": "awhitepage.com",
+      "description": "Keine Werbung! Schnell und einfach myspass.de benutzen!"
+    }
+  }
+}

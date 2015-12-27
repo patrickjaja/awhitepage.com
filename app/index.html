@@ -1,0 +1,63 @@
+<!doctype html>
+<html>
+<head>
+<meta charset=utf-8>
+<meta name=description content="Keine Werbung! Schnell und einfach myspass.de benutzen!">
+<meta name=viewport content="width=device-width, initial-scale=1, minimal-ui">
+<title>Werbefrei myspass.de</title>
+<meta name=mobile-web-app-capable content=yes>
+<link rel=apple-touch-icon-precomposed sizes=144x144 href="images/touch/apple-touch-icon-144x144-precomposed.png">
+<link rel=apple-touch-icon-precomposed sizes=114x114 href="images/touch/apple-touch-icon-114x114-precomposed.png">
+<link rel=apple-touch-icon-precomposed sizes=72x72 href="images/touch/apple-touch-icon-72x72-precomposed.png">
+<link rel=apple-touch-icon-precomposed href="images/touch/apple-touch-icon-57x57-precomposed.png">
+<meta name=msapplication-TileImage content="images/touch/ms-touch-icon-144x144-precomposed.png">
+<meta name=msapplication-TileColor content="#3372DF">
+<link rel="shortcut icon" href="images/touch/touch-icon-57x57.png">
+<link rel="shortcut icon" sizes=196x196 href="images/touch/touch-icon-196x196.png">
+<link rel=stylesheet href="styles/min.h5bp.css">
+<link rel=stylesheet href="styles/components/min.components.css">
+<link rel=stylesheet href="styles/min.main.css">
+</head>
+<body>
+<header class="app-bar promote-layer">
+<div class=app-bar-container>
+<button class=menu><img src="images/hamburger.svg"></button>
+<h1 class=logo>Werbefrei myspass.de</h1>
+<section class=app-bar-actions>
+</section>
+</div>
+</header>
+<nav class="navdrawer-container promote-layer">
+<h4>Navigation</h4>
+<ul>
+<li><a href="#hello">Link öffnen</a></li>
+<li><a href="#get-started">Hilfe</a></li>
+</ul>
+</nav>
+<main>
+<h1 id=hello>Schnell und einfach!</h1>
+<div class=code-sample id=err style="display:none;">
+<div class="highlight-module  highlight-module--left   highlight-module--remember  ">
+<div class="highlight-module__container  icon-exclamation ">
+<div class="highlight-module__content   g-wide--push-1 g-wide--pull-1  g-medium--push-1   ">
+<p class=highlight-module__title> Oooops!</p>
+<p class=highlight-module__text> Das hätte nicht passieren dürfen, ist der Link korrekt? </p>
+</div>
+</div>
+</div>
+</div>
+<p>Video Link hier eintragen:</p>
+<p><input style="width:100%;" type=search placeholder="http://www.myspass.de/myspass/shows/tvshows/tv-total/TV-total-Sendung-vom-04062014--/17759/" size="100%" id=searchinput /></p>
+<p><a href="#0" class=button--primary id=searchbtn>Los!</a></p>
+<video controls style="display:none;" id=videlem type="video/mp4" src="#leer" autobuffer autoplay>
+<p>Dein Browser unterstützt kein Video Element. Bitte die neuste Version von Google Chrome installieren.</p>
+</video>
+</main>
+<div class=loading style="display:none;">Loading&#8230;</div>
+<script src="scripts/zepto.min.js"></script>
+<script src="scripts/min.main.js"></script>
+<script>
+(function(a,e,f,g,b,c,d){a.GoogleAnalyticsObject=b;a[b]=a[b]||function(){(a[b].q=a[b].q||[]).push(arguments)};a[b].l=1*new Date;c=e.createElement(f);d=e.getElementsByTagName(f)[0];c.async=1;c.src=g;d.parentNode.insertBefore(c,d)})(window,document,"script","//www.google-analytics.com/analytics.js","ga");ga("create","UA-52132685-1","awhitepage.com");ga("send","pageview");
+</script>
+</body>
+</html>

@@ -1,0 +1,104 @@
+<!doctype html>
+<html class="no-js">
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="">
+        <meta name="HandheldFriendly" content="True">
+        <meta name="MobileOptimized" content="320">
+        <meta name="viewport" content="width=device-width, initial-scale=1, minimal-ui">
+        <meta http-equiv="cleartype" content="on">
+        <title></title>
+
+        <link rel="apple-touch-icon-precomposed" sizes="144x144" href="images/touch/apple-touch-icon-144x144-precomposed.png">
+        <link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/touch/apple-touch-icon-114x114-precomposed.png">
+        <link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/touch/apple-touch-icon-72x72-precomposed.png">
+        <link rel="apple-touch-icon-precomposed" href="images/touch/apple-touch-icon-57x57-precomposed.png">
+        <link rel="shortcut icon" sizes="196x196" href="images/touch/touch-icon-196x196.png">
+        <link rel="shortcut icon" href="images/touch/apple-touch-icon.png">
+
+        <!-- Tile icon for Win8 (144x144 + tile color) -->
+        <meta name="msapplication-TileImage" content="images/touch/apple-touch-icon-144x144-precomposed.png">
+        <meta name="msapplication-TileColor" content="#222222">
+
+        <!-- SEO: If mobile URL is different from desktop URL, add a canonical link to the desktop page -->
+        <!--
+        <link rel="canonical" href="http://www.example.com/" >
+        -->
+
+        <!-- Add to homescreen for Chrome on Android -->
+        <!--
+        <meta name="mobile-web-app-capable" content="yes">
+        -->
+
+        <!-- For iOS web apps. Delete if not needed. https://github.com/h5bp/mobile-boilerplate/issues/94 -->
+        <!--
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+        <meta name="apple-mobile-web-app-title" content="">
+        -->
+
+        <!-- This script prevents links from opening in Mobile Safari. https://gist.github.com/1042026 -->
+        <!--
+        <script>(function(a,b,c){if(c in b&&b[c]){var d,e=a.location,f=/^(a|html)$/i;a.addEventListener("click",function(a){d=a.target;while(!f.test(d.nodeName))d=d.parentNode;"href"in d&&(d.href.indexOf("http")||~d.href.indexOf(e.host))&&(a.preventDefault(),e.href=d.href)},!1)}})(document,window.navigator,"standalone")</script>
+        -->
+        <!-- build:css styles/components/main.min.css -->
+        <link rel="stylesheet" href="styles/h5bp.css">
+        <link rel="stylesheet" href="styles/components/components.css">
+        <link rel="stylesheet" href="styles/main.css">
+        <!-- endbuild -->
+    </head>
+    <body>
+        <header class="app-bar promote-layer">
+            <div class="app-bar-container">
+                <button class="menu"><img src="images/hamburger.svg"></button>
+                <h1 class="logo">Werbefrei myspass.de</h1>
+                <section class="app-bar-actions">
+                <!-- Put App Bar Buttons Here -->
+                </section>
+            </div>
+        </header>
+
+        <nav class="navdrawer-container promote-layer">
+            <h4>Navigation</h4>
+            <ul>
+                <li><a href="#hello">Link öffnen</a></li>
+                <li><a href="#get-started">Hilfe</a></li>
+                <li><a href="styleguide/index.html">Style Guide</a></li>
+            </ul>
+        </nav>
+
+        <main>
+            <h1 id="hello">Schnell und einfach!</h1>
+            <p>Video Link hier eintragen:</p>
+            <p><input type="search" placeholder="http://www.myspass.de/myspass/shows/tvshows/tv-total/TV-total-Sendung-vom-04062014--/17759/" size="100%" id="searchinput" /></p>
+<!--            <video src="http://x3583brainc11021.s.o.l.lb.core-cdn.net/secdl/10bb8b9e1441f1bf7b448353275e05a7/53a44e2a/11021brainpool/ondemand/3583brainpool/163840/myspass2009/11/623/10507/17132/17132_61.mp4" type="video/mp4">
+                <p>Dein Browser unterstützt kein Video Element Bitte die neuste Version von Google Chrome installieren.</p>
+            </video>-->
+            <p><a href="#0" class="button--primary" id="searchbtn">Los!</a></p>
+            
+
+            
+            <br/>
+<!--            <video controls>
+                <source src="http://x3583brainc11021.s.o.l.lb.core-cdn.net/secdl/10bb8b9e1441f1bf7b448353275e05a7/53a44e2a/11021brainpool/ondemand/3583brainpool/163840/myspass2009/11/623/10507/17132/17132_61.mp4" type="video/mp4">
+                <p>Dein Browser unterstützt kein Video Element Bitte die neuste Version von Google Chrome installieren.</p>
+              </video>-->
+        </main>
+
+        <!-- build:js scripts/main.min.js -->
+        <script src="scripts/zepto.min.js"></script>
+        <script src="scripts/main.js"></script>
+        <!-- endbuild -->
+
+        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+<!--        <script>
+            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+            e.src='//www.google-analytics.com/analytics.js';
+            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+            ga('create','UA-XXXXX-X');ga('send','pageview');
+        </script>-->
+        <!-- Built with love using Web Starter Kit -->
+    </body>
+</html>
